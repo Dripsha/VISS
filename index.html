@@ -31,28 +31,61 @@
 </head>
   
 <body>
-<div class=”container”>
-<div class=”row”>
-<div class=”col-md-12">
-<h1 class=>Science Finder!</h1>
-<h2 class=>Enter the Vumanoid vElf id# you'd like to research!</h2>
-<form id=”form”>
-<input class=”form-control” id=”user-input” placeholder=”Enter actor/actress…”>
-<button id=”button” class=”btn btn-secondary”>Find Movies!</button>
-</form>
-<table class="table" cellpadding="10">
-<thead>
-<tr>
-<th scope="col">ID#</th>
-<th scope="col">Rank</th>
-<th scope="col">Rating</th>
-<th scope="col">Year</th>
-<th scope="col">Description</th>
-</tr>
-</thead>
-<tbody>
-</div>
-</div>
-</div>
+  <header class="mas">
+    <div class="container h-100 align-items-center">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mx-auto">
+            <br>
+            <br>
+            <br>
+            <h1 class=>Find Movies!</h1>
+            <h2 class=>Enter the name of an actor/actress to see his/her best movies!</h2>
+            <h6>(Click <a href="https://jurgenarias.github.io/director/">here</a> to search by director instead)</h6>
+            <form id="form">
+
+              <div class="input-group input-group-newsletter">
+
+                <input class="form-control" id="user-input" placeholder="Enter actor/actress..."
+                  aria-label="Enter email..." aria-describedby="submit-button">
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="boton input-group-append" id="boton">
+                  <button class="boton btn btn-secondary" type="button" id="button">Find Movies!</button>
+                </div>
+              </div>
+            </form>
+
+            <p class="noresults">
+            </p>
+            <p class="noresults2">It might take a few seconds to load the database for your first search (depending on your internet connection)
+            </p>
+
+            <table class="table" cellpadding="10">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Movie</th>
+                  <th scope="col">Rating</th>
+                  <th scope="col">Year</th>
+                  <th scope="col">Director</th>
+                  <th scope="col">Description</th>
+
+                </tr>
+              </thead>
+              <tbody>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    </div>
+
+  </header>
 </body>
 </html>
